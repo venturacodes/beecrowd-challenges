@@ -7,7 +7,6 @@
     $tempoEmMinutos = $tempoEmSegundos / 60;
     $tempoEmSegundos = $tempoEmSegundos % 60;
     
-
     echo floor($tempoEmSegundos)."\n";
     echo floor($tempoEmMinutos)."\n";
     echo floor($tempoEmHoras)."\n";
