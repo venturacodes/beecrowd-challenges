@@ -9,7 +9,6 @@
         $hora = $horaFim > $horaInicio ? ($horaFim - $horaInicio)  : ($horaInicio - $horaFim);
     }else{
         $dia = $DiaFim > $DiaInicio ? ($DiaFim - 1) -$DiaInicio : ($DiaInicio - 1) -$DiaFim;
-        $hora = $horaFim > $horaInicio ? 24 -($horaFim - $horaInicio)  : 24 - ($horaInicio - $horaFim);
     }
     $minuto = $minutoFim > $minutoInicio ? ($minutoFim - $minutoInicio)  : ($minutoInicio - $minutoFim);
     $segundo = $segundoFim > $segundoInicio ? ($segundoFim - $segundoInicio)  : ($segundoInicio - $segundoFim);
