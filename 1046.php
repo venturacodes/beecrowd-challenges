@@ -23,27 +23,20 @@ O JOGO DUROU 24 HORA(S)
 O JOGO DUROU 14 HORA(S)
 */
 
-[$inputStartHour, $inputFinishHour] = explode(" ",readline());
 
-const MIN = 1;
+list($inputStartHour,$inputFinishHour) = explode(" ",readline());
+
 const MAX = 24;
 
-if($inputFinishHour + $inputStartHour == 0){
-    echo 'O JOGO DUROU 24 HORA(S)\n';
-    exit();
-}
-// jogo terminou dia seguinte
-if( $inputFinishHour > $inputStartHour ){
-    $acum = MAX - $inputFinishHour;
-    $duration = $acum + $inputStartHour;
-    echo "O JOGO DUROU $duration HORA(S)\n";
-    exit();
-}else{
+if ($inputStartHour > $inputFinishHour) {
+    $acum = MAX - $inputStartHour;
+    $duration = $acum + $inputFinishHour;
+} elseif($inputStartHour < $inputFinishHour) {
     $duration = $inputFinishHour - $inputStartHour;
-    echo "O JOGO DUROU $duration HORA(S)\n";
-    exit();
+}else{
+    $duration = MAX;
 }
-
+echo sprintf("O JOGO DUROU %s HORA(S)\n", $duration);
 
 
 
