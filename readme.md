@@ -6,12 +6,14 @@
 Serve as knowledge base for future developers that want to see a way of solution to beecrowd challenges.
 
 ## Challenge List(All done in [PHP](https://www.php.net/))
+
+---
 - [X] [1017](https://www.beecrowd.com.br/judge/pt/problems/view/1017)
 - [X] [1018](https://www.beecrowd.com.br/judge/pt/problems/view/1018)
 - [X] [1019](https://www.beecrowd.com.br/judge/pt/problems/view/1019)
 - [X] [1020](https://www.beecrowd.com.br/judge/pt/problems/view/1020)
 - [X] [1021](https://www.beecrowd.com.br/judge/pt/problems/view/1021)
-- [X] [1022](https://www.beecrowd.com.br/judge/pt/problems/view/1022)
+- [X] [1022](https://www.beecrowd.com.br/judg\e/pt/problems/view/1022)
 - [X] [1023](https://www.beecrowd.com.br/judge/pt/problems/view/1023)
 - [X] [1024](https://www.beecrowd.com.br/judge/pt/problems/view/1024)
 - [X] [1038](https://www.beecrowd.com.br/judge/pt/problems/view/1038)
